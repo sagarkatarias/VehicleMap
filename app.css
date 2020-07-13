@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background-color: #0e8181 !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #eee;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #0b6192;
+    font-weight: bold;
+}
+
+.container {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.container img {
+    max-height: 200px;
+    max-width: 400px;
+    padding-bottom: 5px;
+}
+
+#map {
+     height: 600px;
+}
+
+#table-body tr:hover {
+    cursor: pointer !important;
+    background-color: #444546 !important;
+}
+
+#table-body tr.check {
+    background-color: #073c5a !important;
+}
